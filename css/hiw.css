@@ -1,0 +1,400 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f4f3ee;
+    overflow-x: hidden;
+}
+
+header {
+    background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/cover.jpeg");
+    width: 100vw;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-position-y: 60%;
+}
+
+.navbar {
+    margin-top: -10px;
+}
+
+.navbar-brand {
+    color: #f4f3ee;
+    font-size: 34px;
+    font-weight: 700;
+    font-family: "Trirong", serif;
+}
+
+.nav-link1 {
+    color: #f4f3ee;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nav-link2{
+    color: #f4f3ee;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 13px;
+}
+
+.nav-link2:hover{
+    color: #f4f3ee;
+    text-decoration: none;
+}
+
+.nav-link1:hover {
+    text-decoration: none;
+    color: #463f3a;
+}
+
+#nav2 {
+    background-color: #463f3a;
+    height: 8vh;
+    display: none;
+    width: 100vw;
+    
+}
+
+.me-3 {
+    height: 10%;
+    margin-top: 59px;
+    width: 23vw;
+    margin-left: 5%;
+}
+
+.me-4{
+    margin-top: -3.2%;
+    margin-left: -5%;
+}
+
+.logo {
+    width: 15vw;
+    height: 15vh;
+    margin-top: 25px;
+    /* position: absolute; */
+}
+
+.logo2 {
+    width: 10vw;
+    height: 10vh;
+    margin-top: 40px;
+    margin-left: 100px;
+    /* position: absolute; */
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+.hiw {
+    color: #bcb8b1;
+}
+
+.dropdown-menu {
+    background-color: #bcb8b1;
+}
+
+.dropdown-item {
+    color: #f4f3ee;
+}
+
+
+.dropdown-item:hover {
+    color: #463f3a;
+}
+
+.header1 {
+    font-family: "Trirong", serif;
+    color: #f4f3ee;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    opacity: 0.8;
+    margin-top: 15%;
+}
+
+.writeup1 {
+    font-size: 30px;
+    color: #f4f3ee;
+    opacity: 0.8;
+    text-align: center;
+    font-family: "Trirong", serif;
+}
+
+.section1 {
+    border-bottom: 1px solid #bcb8b1;
+    width: 100vw;
+    height: 10vh;
+}
+
+.icon-pack {
+    display: inline-flex;
+    margin-left: -20%;
+}
+
+.icon {
+    margin-left: 50%;
+    font-size: 25px;
+    margin-top: 7%;
+    color: #463f3a;
+}
+
+.writeup2{
+    font-size: 27px;
+    margin-left: 5%;
+    font-family: "Trirong", serif;
+}
+
+.shift2{
+    display: inline-flex;
+    margin-top: 3%;
+}
+
+.change {
+    font-size: 25px;
+    text-decoration: none;
+    color: #463f3a;
+    font-family: "Trirong", serif;
+}
+
+.change:hover{
+    color: #463f3a;
+    text-decoration: none;
+}
+
+.shift2 {
+    display: inline-flex;
+    gap: 2rem;
+}
+
+.slash {
+    font-size: 25px;
+    color: #463f3a;
+    font-family: "Trirong", serif;
+}
+
+.shift3 {
+    margin-left: 17%;
+}
+
+.active {
+    color: #bcb8b1;
+}
+
+.section2 {
+    margin-top: 5%;
+}
+
+.contain1 {
+    /* border: 1px solid black; */
+    height: 35vh;
+    width: 100%;
+    padding: 20px 27px;
+    display: inline-flex;
+}
+
+.contain2 {
+    width: 20vw;    
+    height: 30vh;
+    /* background-color: #bcb8b1; */
+    padding: 20px;
+}
+
+.contain3 {
+    height: 30vh;
+    width: 60vw;
+    margin-left: 5%;
+}
+
+.buildings {
+    width: 20vw;
+    height: 26vh;
+    margin-left: -8%;
+}
+
+
+.header2{
+    color: #463f3a;
+    font-family: "Trirong", serif;
+    letter-spacing: 2px;
+
+}
+
+.writeup3 {
+    font-size: 20px;
+    color: #463f3a;
+    font-family: "Trirong", serif;
+    letter-spacing: 2px;
+}
+
+.section13{
+    margin-top: 5%;
+}
+
+.contain16 {
+    border: 2px solid #463f3a;
+    height: 20vh;
+    background-color: #bcb8b1;
+    border-radius: 10px;
+}
+
+
+.writeup14 {
+    margin-top: 6%;
+    text-align: center;
+    color: #463f3a;
+    font-family: "Trirong", serif;
+    font-size: 17px;
+}
+
+.link3 {
+    text-decoration: none;
+    color: #463f3a;
+}
+
+.link3:hover{
+    color: #463f3a;
+    text-decoration: none;
+}
+
+.icons3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 17%;
+    font-size: 40px;
+    color: #463f3a; 
+}
+
+footer {
+    margin-top: 7%;
+    width: 100vw;
+    height: 40vh;
+    background-color: #463f3a;
+}
+
+.payment {
+    width: 20vw;
+    height: 5vh;
+}
+
+.writeup15 {
+    color: #f4f3ee;
+    font-family: "Trirong", serif;
+    font-size: 12px;
+    width: 80%;
+}
+
+.header5{
+    font-family: "Trirong", serif;
+    color: #f4f3ee;
+}
+
+.header6{
+    font-family: "Trirong", serif;
+    color: #f4f3ee;
+}
+
+.writeup16 {
+    font-family: "Trirong", serif;
+    color: #f4f3ee;
+}
+
+.writeup16:hover{
+    cursor: pointer;
+}
+
+.contain18 {
+    margin-left: 15%;
+}
+
+.writeup18 {
+    font-family: "Trirong", serif;
+    color: #f4f3ee;
+    margin-left: -20px;
+}
+
+.icons4 {
+font-size: 20px;
+padding: 0 20px;    
+}
+
+.contain17, .contain18, .contain19 {
+    margin-top: 7%;
+}
+
+#mybtn{
+    position: fixed;
+    bottom: 20px;
+    right: 0;
+    border: none;
+    border-radius: 50px;
+    padding: 15px;
+    cursor: pointer;
+    background-color: #463f3a;
+    z-index: 99;
+    transition: 2s ease;
+    display: none;
+}
+
+#mybtn:hover{
+    background-color: #bcb8b1;
+    transition: 2s ease;
+}
+
+.fa-arrow-up {
+    color: #f4f3ee;
+}
+
+/* section1 */
+@media(max-width: 1061px){
+    .section1{
+        display: none;
+    }
+}
+
+/* section2 */ 
+@media(max-width: 1001px) {
+    .header2 {
+        font-size: 23px;
+        letter-spacing: 0px;
+    }
+
+    .writeup3 {
+        letter-spacing: 0px;
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 404px) {
+    .writeup3 {
+        font-size: 10px;
+    }
+}
+
+/* section13 */
+
+@media(max-width: 770px){
+    .contain16 {
+        margin: 7% 0;
+    }
+}
+
+/* footer */
+@media(max-width: 768px){
+    footer {
+        height: 95vh;
+    }
+
+    .contain19{
+        margin-left: 13%;
+    }
+}

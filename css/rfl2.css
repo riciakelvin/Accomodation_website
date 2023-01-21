@@ -1,0 +1,613 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f3ee;
+    overflow-x: hidden;
+}
+
+.navbar-brand {
+    color: #f4f3ee;
+    font-size: 34px;
+    font-weight: 700;
+    font-family: "Trirong", serif;
+}
+
+.nav-link1 {
+    color: #f4f3ee;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nav-link2{
+    color: #f4f3ee;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 13px;
+    font-family: "Trirong", serif;
+}
+
+.nav-link2:hover{
+    color: #f4f3ee;
+    text-decoration: none;
+}
+
+.nav-link1:hover {
+    text-decoration: none;
+    color: #463f3a;
+}
+
+#nav2 {
+    background-color: #463f3a;
+    height: 8vh;
+    width: 100vw;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+.me-3 {
+    height: 10%;
+    margin-top: 70px;
+    width: 23vw;
+    margin-left: 5%;
+}
+
+.me-4{
+    margin-top: -20px;
+    margin-left: -5%;
+}
+
+.logo2 {
+    width: 10vw;
+    height: 10vh;
+    margin-top: 55px;
+    margin-left: 100px;
+    /* position: absolute; */
+}
+
+/* .dropdown-menu {
+    background-color: #bcb8b1;
+}
+
+.dropdown-item {
+    color: #f4f3ee;
+    font-family: "Trirong", serif;
+}
+
+
+.dropdown-item:hover {
+    color: #463f3a;
+} */
+
+
+
+.img1 {
+    width: 100vw;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.contain1{
+    /* border: 1px solid black; */
+    height: 40vh;
+    margin-top: 7%;
+}
+
+.header1 {
+    color: #463f3a;
+    font-family: "Trirong", serif;
+    letter-spacing: 2px;
+}
+
+.fa-star {
+    padding: 0 5px;
+    color: #463f3a;
+}
+
+.favourite {
+    font-size: 22px;
+    border: 1px solid #463f3a;
+    padding: 5px;
+    border-radius: 30px;
+    color: #463f3a;
+    font-family: "Trirong", serif;
+    margin-left: 15%;
+}
+
+.favourite:hover{
+    cursor: pointer;
+}
+
+.loc1 {
+    font-size: 22px;
+    color: #463f3a;
+}
+
+.link3 {
+    font-size: 18px;
+    padding: 0 11px;
+    font-family: "Trirong", serif;
+    color: #463f3a;
+}
+
+.link3:hover{
+    color: #bcb8b1;
+    text-decoration: none;
+    transition: 1s ease;
+}
+
+.cube1 {
+    font-size: 18px;
+    color: #463f3a;
+}
+
+.loc2 {
+    font-size: 18px;
+    color: #463f3a;
+}
+
+.pp1 {
+    font-size: 15px;
+    color: #463f3a;
+    font-family: "Trirong", serif;
+    margin-left: 0.5rem;
+    margin-top: -2  px;;
+}
+
+.shift {
+    margin: 0 0.2rem;
+}
+
+.split2{
+    margin-left: -1rem;
+}
+
+.contain3{
+    width: 34.2vw;
+    height: 7vh;
+    margin-left: 0.9%;
+    background-color: #bcb8b1;
+    margin-top: -10px;
+    
+}
+
+.cover1{
+    padding: 12px;
+}
+
+.contain5, .contain6{
+    margin-left: 0.8rem;
+    margin-top: 0.3rem;
+}
+
+.pp3 {
+    color: #463f3a;
+    font-family: "Trirong", serif;
+    opacity: 0.8;
+}
+
+.writeup1 {
+    margin-top: 16px;
+    color: #463f3a;
+    font-family: "Trirong", serif;
+}
+
+.section4{
+    /* height: 100vh; */
+    background-color: #bcb8b1;
+}
+
+.cover2{
+    padding: 20px;
+}
+
+.header2{
+    color: #463f3a;
+    font-family: "Trirong", serif;
+}
+
+.couch1 {
+    color: #463f3a;
+    font-size: 30px;
+}
+
+.contain9 {
+    margin-top: -12px;
+}
+
+.pp4 {
+    font-size: 22px;
+    margin-left: 8px;
+    color: #463f3a;
+    font-family: "Trirong", serif;
+}
+
+
+.fa-check{
+    font-size: 18px;
+    color: #f4f3ee;
+    margin-top: 7px;
+}
+
+.pp5 {
+    color: #f4f3ee;
+    margin-left: 15px;
+    font-family: "Trirong", serif;
+}
+
+.fa-shirt {
+    color: #463f3a;
+    font-size: 30px;
+}
+
+.contain10{
+    margin-top: 15px;
+}
+
+.contain10{
+    margin-top: -0.4%;
+}
+.fa-sink {
+    color: #463f3a;
+    font-size: 30px;
+}
+
+.split6{
+    margin: 0 12%;
+}
+
+.shower1{
+    color: #463f3a;
+    font-size: 30px;
+}
+
+.fa-table {
+    color: #463f3a;
+    font-size: 30px;
+}
+
+.tv1 {
+    color: #463f3a;
+    font-size: 30px;
+}
+
+.lock1 {
+    color: #463f3a;
+    font-size: 30px;
+}
+
+.contain11 {
+    margin-left: 15%;
+}
+
+.contain12{
+    margin-left: 1%;
+}
+
+.fa-circle-info {
+    color: #463f3a;
+    font-size: 30px;
+}
+
+.section5{
+    margin-top: 7%;
+    background-color: #bcb8b1;
+    height: 20vh;
+}
+
+.header3{
+    color: #463f3a;
+    font-family: "Trirong", serif;
+}
+
+.cover3{
+    padding: 23px;
+}
+
+.contain13{
+    margin-top: 4%;
+}
+
+.fa-paw {
+    font-size: 35px;
+    color: #463f3a;
+}
+
+.pp6{
+    color: #f4f3ee;
+    font-size: 22px;
+    margin-left: 15px;
+    font-family: "Trirong", serif;
+}
+
+
+.contain15{
+    margin-left: 15%;
+}
+
+.fa-ban {
+    font-size: 35px;
+    color: #463f3a;
+}
+
+.heading4{
+    margin-top: 7%;
+    color: #463f3a;
+    font-family: "Trirong", serif;
+}
+
+.section6{
+    margin-top: 5%;
+    /* background-color: #463f3a; */
+    /* height: 30vh; */
+}
+
+.cover4{
+    padding: 20px;
+}
+
+.student-pic {
+    width: 20vw;
+    height: 20vh;
+}
+
+.hx1{
+    color: #463f3a;
+    font-family: "Trirong", serif;
+}
+
+.pp7 {
+    width: 83%;
+    font-size: 18px;
+    font-family: "Trirong", serif;
+    color: #463f3a;
+}
+
+.contain21 {
+    margin-left: 7%;
+}
+
+.contain22{
+    /* border: 1px solid black; */
+    height: 5.5vh;
+    font-size: 22px;
+    padding: 5px 8px;
+    background-color: #463f3a;
+    color: #f4f3ee;
+    font-family: "Trirong", serif;
+}
+
+.section7 {
+    background-color: #463f3a;
+    /* height: 40vh; */
+    /* margin-top: -30%; */
+    position: relative;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.pp8 {
+    font-size: 30px;
+    text-align: center;
+    color: #f4f3ee;
+    border-bottom: 1px solid #f4f3ee;
+    padding-bottom: 13px;
+    font-family: "Trirong", serif; 
+}
+
+.span1{
+    color: #bcb8b1;
+    font-size: 22px;
+}
+
+.contain23 {
+ padding: 15px;
+}
+
+.pp9{
+    color: #bcb8b1;
+    font-family: "Trirong", serif;
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+.pp10{
+    color: #f4f3ee;
+    font-family: "Trirong", serif;
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+.fa-arrow-right {
+    padding-right: 10px;
+}
+
+.apply {
+    color: #f4f3ee;
+    margin-top: 4%;
+    font-size: 20px;
+    width: 100%;
+    border: 1px solid #f4f3ee;
+    text-align: center;
+}
+
+.apply:hover{
+    background-color: #f4f3ee;
+    color: #463f3a;
+    transition: 1s linear;
+}
+
+.similar {
+    margin-top: 13%;
+    font-family: "Trirong", serif;
+    font-size: 23px;
+    color: #463f3a;
+}
+
+.card-body{
+    background-color: #bcb8b1;
+    height: 34vh;
+}
+
+.card-title {
+    font-size: 23px;
+    color: #463f3a;
+    font-family: "Trirong", serif;
+}
+
+.contain26{
+    margin-left: 8%;
+}
+
+.cube2{
+    color: #463f3a  ;
+}
+
+.icon-pack{
+    margin-left: -3px;
+}
+
+.icon {
+    font-size: 18px;
+    margin: 0 3px;
+    color: #463f3a;
+}
+
+.pp11{
+    font-family: "Trirong", serif;
+    color: #463f3a;
+    font-size: 16px;
+    margin-left: 30%; 
+    margin-top: -3px;
+    /* border: 1px solid black; */
+    padding: 3px;
+    background-color: #463f3a;
+    color: #f4f3ee; 
+}
+
+.link4 {
+    color: #f4f3ee;
+    font-size: 16px;
+    font-family: "Trirong", serif;
+}
+
+.link4:hover{
+    transition: 1s linear;
+    color: #463f3a;
+    text-decoration: none;
+}
+
+.contain28 {
+    background-color: #463f3a;
+    margin-top: 4%;
+    border-radius: 10px;
+}
+
+.pp12 {
+   font-size: 25px;
+   color: #f4f3ee; 
+   font-family: "Trirong", serif;
+   padding: 10px;
+}
+
+.span2 {
+    font-size: 20px;
+    color: #bcb8b1;
+}
+
+.sectionx:hover{
+    opacity: 0.8;
+}
+
+.rm{
+    color: #bcb8b1;
+}
+
+footer {
+    margin-top: 10%;
+    width: 100vw;
+    height: 40vh;
+    background-color: #463f3a;
+}
+
+.payment {
+    width: 20vw;
+    height: 5vh;
+}
+
+.writeup15 {
+    color: #f4f3ee;
+    font-family: "Trirong", serif;
+    font-size: 12px;
+    width: 80%;
+}
+
+.header6{
+    font-family: "Trirong", serif;
+    color: #f4f3ee;
+}
+
+.header5{
+    font-family: "Trirong", serif;
+    color: #f4f3ee;
+}
+
+.writeup16 {
+    font-family: "Trirong", serif;
+    color: #f4f3ee;
+}
+
+.writeup16:hover{
+    cursor: pointer;
+}
+
+.contain18 {
+    margin-left: 15%;
+}
+
+.writeup18 {
+    font-family: "Trirong", serif;
+    color: #f4f3ee;
+    margin-left: -20px;
+}
+
+.icons4 {
+font-size: 20px;
+padding: 0 20px;    
+}
+
+.contain17, .contain18, .contain19 {
+    margin-top: 7%;
+}
+
+.header3 {
+    font-family: "Trirong", serif;
+    color: #463f3a;
+}
+
+#mybtn{
+    position: fixed;
+    bottom: 20px;
+    right: 0;
+    border: none;
+    border-radius: 50px;
+    padding: 15px;
+    cursor: pointer;
+    background-color: #463f3a;
+    z-index: 99;
+    transition: 2s ease;
+    display: none;
+}
+
+#mybtn:hover{
+    background-color: #bcb8b1;
+    transition: 2s ease;
+}
+
+.fa-arrow-up {
+    color: #f4f3ee;
+}

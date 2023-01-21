@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color: #bcb8b1; */
+    /* background: -webkit-linear-gradient(0deg, rgba(188, 184, 177, 0.2), rgba(188, 184, 177, 0.2)), url("../img/office.webp"); */
+    /* background-repeat: no-repeat;
+    object-fit: contain;
+    background-size: cover;
+    background-position-y: 70%;
+    image-rendering: pixelated; */
+    background-color: #bcb8b1;
+}
+
+form {
+    /* backdrop-filter: blur(8px); */
+    background-color: #463f3a;
+    opacity: 1;
+    padding: 20px;
+    animation: drop 1s ease-in-out 1s  forwards;
+}
+
+.line {
+    border-bottom: 1px solid #8a817c;
+    border-width: 2px;
+    width: 50%;
+}
+
+.logo {
+    width: 20vw;
+    height: 40vh;
+}
+
+.greetings {
+    color: #f4f3ee;
+}
+
+h1 {
+    text-align: center;
+    color: #bcb8b1;
+}
+
+label {
+    color: #f4f3ee;
+}
+
+.form-control {
+    background-color: #f4f3ee;
+}
+
+option {
+    background-color: #463f3a;
+    color: #f4f3ee;
+}
+
+#inputState{
+    color: #8a817c;
+}
+
+.tel{
+    color: #8a817c;
+    font-weight: 700;
+}
+
+.tel:hover {
+    color: #8a817c;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #8a817c;
+    color: #f4f3ee;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #8a817c;
+    color: #f4f3ee;
+}
+
+.pay {
+    color: #bcb8b1;
+}
+
+.pay:hover{
+    color: #bcb8b1;
+    text-decoration: none;
+}
+
+@keyframes drop{
+    0%{
+        /* transform: translateY(-1000px); */
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        /* transform: translateY(1px); */
+        opacity: 1;
+    }
+}
+
+

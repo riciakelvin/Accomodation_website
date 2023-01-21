@@ -1,0 +1,432 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f3ee;
+    overflow-x: hidden;
+}
+
+.navbar-brand {
+    color: #f4f3ee;
+    font-size: 34px;
+    font-weight: 700;
+    font-family: "Trirong", serif;
+}
+
+.nav-link1 {
+    color: #f4f3ee;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nav-link2{
+    color: #f4f3ee;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 13px;
+    font-family: "Trirong", serif;
+}
+
+.nav-link2:hover{
+    color: #f4f3ee;
+    text-decoration: none;
+}
+
+.nav-link1:hover {
+    text-decoration: none;
+    color: #463f3a;
+}
+
+#nav2 {
+    background-color: #463f3a;
+    height: 8vh;
+    width: 100vw;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+.me-3 {
+    height: 10%;
+    margin-top: 70px;
+    width: 23vw;
+    margin-left: 5%;
+}
+
+.me-4{
+    margin-top: -20px;
+    margin-left: -5%;
+}
+
+.logo2 {
+    width: 10vw;
+    height: 10vh;
+    margin-top: 55px;
+    margin-left: 100px;
+    /* position: absolute; */
+}
+
+.dropdown-menu {
+    background-color: #bcb8b1;
+}
+
+.dropdown-item {
+    color: #f4f3ee;
+    font-family: "Trirong", serif;
+}
+
+
+.dropdown-item:hover {
+    color: #463f3a;
+}
+
+.section2 {
+    margin-top: 7%;
+}
+
+.contain1{
+    margin-left: -2%;
+}
+
+.link1 {
+    font-size: 22px;
+    margin: 0 2%;
+    color: #463f3a;
+    font-family: "Trirong", serif;
+}
+
+.link1:hover{
+    color: #463f3a;
+}
+
+.span1{
+    font-size: 22px;
+    color: #bcb8b1;
+    font-family: "Trirong", serif;
+}
+
+.section3 {
+    margin-top: 2%;
+}
+
+.btn1 {
+    font-size: 22px;
+    border: 1px solid #463f3a;
+    border-radius: 30px;
+    color: #463f3a;
+    font-family: "Trirong", serif;
+}
+
+.btn:hover {
+    color: #f4f3ee;
+    background-color: #463f3a;
+    transition: 1s ease;
+}
+
+.input1 {
+    background-color: #bcb8b1;
+}
+
+.input1::placeholder {
+    color: #463f3a;
+    font-family: "Trirong", serif;
+}
+
+.select1{
+    background-color: #bcb8b1;
+    color: #463f3a;
+    font-family: "Trirong", serif;
+}
+
+.option1 {
+    background-color: #463f3a;
+    color: #f4f3ee;
+    font-family: "Trirong", serif;
+}
+
+.section4 {
+    margin-top: 2%;
+}
+
+.header1 {
+    color: #463f3a;
+    font-family: "Trir  ong", serif;
+}
+
+.link2 {
+    margin-left: 43%;
+    font-size: 22px;
+    color: #bcb8b1;
+    font-family: "Trir  ong", serif;
+}
+
+.link2:hover {
+    color: #463f3a;
+    text-decoration: none;
+    transition: 1s ease-in-out;
+}
+
+.sub-sec1 {
+    margin-top: 4%;
+}
+
+.header2 {
+    font-size: 22px;
+    font-family: "Trir  ong", serif;
+    color: #463f3a;
+}
+
+.form-check {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.form-check-input {
+    background-color: #bcb8b1;
+}
+
+.form-check-label {
+    color: #463f3a;
+    font-family: "Trir  ong", serif;
+}
+
+.link3 {
+    margin-left: -12%;
+    font-size: 18px;
+    color: #bcb8b1;
+}
+
+.link3:hover{
+    color: #463f3a;
+    text-decoration: none;
+}
+
+.card {
+   background-color: #bcb8b1;
+}
+
+
+.exhibit-a {
+    height: 35vh;
+    object-fit: cover;
+}
+
+.rate {
+    margin-left: 12rem;
+    font-size: 20px;
+    font-family: "Trir  ong", serif;
+    padding: 2px 3px;
+    color: #f4f3ee;
+    background-color: #463f3a;
+    margin-top: -5px;
+}
+
+.card-title {
+    font-size: 22px;
+    color: #463f3a;
+    font-family: "Trir  ong", serif;
+}
+
+.fa-thumbs-up, .fa-thumbs-down {
+        font-size: 22px;
+        padding: 10px;
+        border-radius: 50%;
+}
+
+.fa-thumbs-up {
+    background-color: #463f3a;
+    color: #f4f3ee;
+}
+
+.fa-thumbs-down{
+    background-color: #f4f3ee;
+    color: #463f3a;
+    margin-left: 5%;
+}
+
+.contain3{
+    margin-top: 4%;
+    width: 100%;
+}
+
+.location1{
+    font-size: 22px;
+    color: #463f3a;
+}
+
+.link4{
+    font-size: 18px;
+    color: #463f3a;
+    font-family: "Trir  ong", serif;
+    margin-left: 4%;
+    margin-top: -5px;
+}
+
+.link4:hover {
+    transition: 1s ease;
+    color: #f4f3ee;
+    text-decoration: none;
+}
+
+.fa-cube {
+    font-size: 18px;
+    color: #463f3a;
+}
+
+.pp1 {
+    font-size: 18px;
+    color: #463f3a;
+    font-family: "Trir  ong", serif;
+    margin-left: 0.5rem;
+    margin-top: -5px;;
+}
+
+.contain6{
+    margin-left: 28px;
+}
+
+.icon-pack {
+    margin-left: -10px;
+}
+
+.icon1 {
+    font-size: 20px;
+    color: #463f3a;
+    margin-left: 10px;
+}
+
+.link5 {
+    color: #463f3a;
+    margin-left: 8rem;
+    font-family: "Trir  ong", serif;
+}
+
+.link5:hover {
+    color: #f4f3ee;
+    text-decoration: none;
+    transition: 1s linear;
+}
+
+.contain8{
+    height: 35.4vh;
+    margin-left: -19%;
+    background-color: #463f3a;
+}
+
+.price {
+    padding-top: 5px;
+    text-align: center;
+    font-size: 22px;
+    color: #f4f3ee;
+    font-family: "Trir  ong", serif;
+}
+
+.span2{
+    font-size: 18px;
+    color: #bcb8b1;
+}
+
+.fa-check {
+    padding: 0 10px;
+}
+
+.price2 {
+    margin-left: -10%;
+}
+
+.mrgn{
+    margin-top: 31%;
+}
+
+footer {
+    margin-top: 5%;
+    width: 100vw;
+    height: 40vh;
+    background-color: #463f3a;
+}
+
+.payment {
+    width: 20vw;
+    height: 5vh;
+}
+
+.writeup15 {
+    color: #f4f3ee;
+    font-family: "Trirong", serif;
+    font-size: 12px;
+    width: 80%;
+}
+
+.header6{
+    font-family: "Trirong", serif;
+    color: #f4f3ee;
+}
+
+.header5{
+    font-family: "Trirong", serif;
+    color: #f4f3ee;
+}
+
+.writeup16 {
+    font-family: "Trirong", serif;
+    color: #f4f3ee;
+}
+
+.writeup16:hover{
+    cursor: pointer;
+}
+
+.contain18 {
+    margin-left: 15%;
+}
+
+.writeup18 {
+    font-family: "Trirong", serif;
+    color: #f4f3ee;
+    margin-left: -20px;
+}
+
+.icons4 {
+font-size: 20px;
+padding: 0 20px;    
+}
+
+.contain17, .contain18, .contain19 {
+    margin-top: 7%;
+}
+
+.header3 {
+    font-family: "Trirong", serif;
+    color: #463f3a;
+}
+
+#mybtn{
+    position: fixed;
+    bottom: 20px;
+    right: 0;
+    border: none;
+    border-radius: 50px;
+    padding: 15px;
+    cursor: pointer;
+    background-color: #463f3a;
+    z-index: 99;
+    transition: 2s ease;
+    display: none;
+}
+
+#mybtn:hover{
+    background-color: #bcb8b1;
+    transition: 2s ease;
+}
+
+.fa-arrow-up {
+    color: #f4f3ee;
+}
+
+
+
+
+
+

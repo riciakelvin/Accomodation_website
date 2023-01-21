@@ -1,0 +1,905 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/4ccf395264.js" crossorigin="anonymous"></script>
+  <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/rfl.css">
+  <title>RentRoom | Everman</title>
+  <link rel="icon" type="image/x-icon" href="/img/logo.png">
+</head>
+
+<body>
+
+  <button id="mybtn" title="go to top" >
+    <i class="fa fa-arrow-up"></i>
+</button>
+
+  <section class="section1">
+    <nav class="navbar navbar-expand-lg shadow-lg sticky" id="nav2">
+      <div class="container-fluid me-4">
+        <form class="d-flex" role="search">
+          <a class="" href="index.html"> <img src="img/logo.png" alt="" class="logo2 img-fluid"></a>
+          <input class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
+        </form>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="cover">
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link nav-link2" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link2" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link2 hiw" href="hiw.html">How it works</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link2" href="rfl.html">Rent A Room</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link2" href="contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link2" href="login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link2" href="register.html">Sign-up</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+
+  <section class="section2">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="contain1">
+            <a href="home.html" class="link1">Home</a> <span class="span1">/</span>
+            <a href="home.html" class="link1">Services</a> <span class="span1">/</span>
+            <a href="home.html" class="link1">Rent a room</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section3">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-3">
+          <button class="btn btn1">Show recomended</button>
+        </div>
+        <div class="col-xl-6">
+          <input class="form-control input1" type="search" placeholder="Search" aria-label="Search">
+        </div>
+        <div class="col-xl-3">
+          <select id="inputState" class="form-select select1" placeholder="Most popular">
+            <option class="option1">Most Popular</option>
+            <option class="option1">Budget</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="section4">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-3">
+          <div class="contain2 d-flex ">
+            <h4 class="header1">Filter</h4>
+            <a href="" class="link2">clear</a>
+          </div>
+
+          <div class="sub-sec1">
+            <h5 class="header2">Price range</h5>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                #150K - #210k
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                #211k - #345k
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                #346k - #500k
+              </label>
+            </div>
+          </div>
+
+          <div class="sub-sec1">
+            <h5 class="header2">Accomodation type</h5>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                Bunk Beds
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                Single Bed
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                Double Beds
+              </label>
+            </div>
+          </div>
+
+          <div class="sub-sec1">
+            <h5 class="header2">Accomodation Facilites</h5>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                Furnished
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                Unfurnished
+              </label>
+            </div>
+          </div>
+
+          <div class="sub-sec1">
+            <h5 class="header2">Bills included</h5>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                Electricity
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                Water
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                Internet
+              </label>
+            </div>
+          </div>
+
+          <div class="sub-sec1">
+            <h5 class="header2">Ratings++</h5>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                5.0
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                3.5
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                Below 3.5
+              </label>
+            </div>
+          </div>
+          <div class="sub-sec1">
+            <h5 class="header2">Security and safety</h5>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                Controlled Access Gate
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                CCTV Cameras
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                Secured access
+              </label>
+            </div>
+          </div>
+
+          <div class="sub-sec1">
+            <h5 class="header2">Others</h5>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                Animals allowed
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                Smoking allowed
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-7">
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="img/exhibit-d.jpeg" class="img-fluid exhibit-a" style="max-width: 220px;" alt="...">
+              </div>
+              <div class="col-md-8">
+
+                <div class="card-body">
+                  <div class="containx d-flex">
+                    <h5 class="card-title">Spring Garden</h5>
+                    <p class="rate">5.0</p>
+                  </div>
+                  <div class="contain2">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-down"></i>
+                  </div>
+
+                  <div class="contain3 d-flex">
+                    <i class="fa-solid fa-location-dot location1"></i>
+                    <a href="" class="link4">
+                      <p>Show on map</p>
+                    </a>
+                  </div>
+
+                  <div class="contain4 d-flex">
+                    <div class="contain5 d-flex">
+                      <i class="fa-solid fa-cube"></i>
+                      <p class="pp1">20 m<sup>2</sup></p>
+                    </div>
+
+                    <div class="contain6 d-flex">
+                      <i class="fa-solid fa-cube"></i>
+                      <p class="pp1">1 room</p>
+                    </div>
+
+                    <div class="contain6 d-flex">
+                      <i class="fa-solid fa-location-dot location2"></i>
+                      <p class="pp1">Easy Access</p>
+                    </div>
+                  </div>
+
+                  <div class="contain4 d-flex">
+                    <div class="contain5 d-flex">
+                      <i class="fa-solid fa-car"></i>
+                      <p class="pp1">20 mins</p>
+                    </div>
+
+                    <div class="contain6 d-flex">
+                      <i class="fa-solid fa-bus"></i>
+                      <p class="pp1">45 mins</p>
+                    </div>
+
+                    <div class="contain6 d-flex">
+                      <i class="fa-solid fa-person"></i>
+                      <p class="pp1">1hr 10mins</p>
+                    </div>
+                  </div>
+
+                  <div class="contain7 d-flex">
+                    <div class="icon-pack">
+                      <i class="fa-solid fa-bed icon1"></i>
+                      <i class="fa-solid fa-sink icon1"></i>
+                      <i class="fa-solid fa-lightbulb icon1"></i>
+                      <i class="fa-solid fa-wifi icon1"></i>
+                    </div>
+                    <a href="rfl2.html" class="link5">More details <i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="card mt-5">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="img/exhibit-a.avif" class="img-fluid exhibit-a" style="max-width: 220px;" alt="...">
+              </div>
+              <div class="col-md-8">
+
+                <div class="card-body">
+                  <div class="containx d-flex">
+                    <h5 class="card-title">Luis-Jnr Ave</h5>
+                    <p class="rate">4.9</p>
+                  </div>
+                  <div class="contain2">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-down"></i>
+                  </div>
+
+                  <div class="contain3 d-flex">
+                    <i class="fa-solid fa-location-dot location1"></i>
+                    <a href="" class="link4">
+                      <p>Show on map</p>
+                    </a>
+                  </div>
+
+                  <div class="contain4 d-flex">
+                    <div class="contain5 d-flex">
+                      <i class="fa-solid fa-cube"></i>
+                      <p class="pp1">45 m<sup>2</sup></p>
+                    </div>
+
+                    <div class="contain6 d-flex">
+                      <i class="fa-solid fa-cube"></i>
+                      <p class="pp1">2 rooms</p>
+                    </div>
+
+                    <div class="contain6 d-flex">
+                      <i class="fa-solid fa-location-dot location2"></i>
+                      <p class="pp1">Easy Access</p>
+                    </div>
+                  </div>
+
+                  <div class="contain4 d-flex">
+                    <div class="contain5 d-flex">
+                      <i class="fa-solid fa-car"></i>
+                      <p class="pp1">7 mins</p>
+                    </div>
+
+                    <div class="contain6 d-flex">
+                      <i class="fa-solid fa-bus"></i>
+                      <p class="pp1">19 mins</p>
+                    </div>
+
+                    <div class="contain6 d-flex">
+                      <i class="fa-solid fa-person"></i>
+                      <p class="pp1">43 mins</p>
+                    </div>
+                  </div>
+
+                  <div class="contain7 d-flex">
+                    <div class="icon-pack">
+                      <i class="fa-solid fa-bed icon1"></i>
+                      <i class="fa-solid fa-sink icon1"></i>
+                      <i class="fa-solid fa-lightbulb icon1"></i>
+                      <i class="fa-solid fa-wifi icon1"></i>
+                    </div>
+                    <a href="" class="link5">More details <i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="card mt-5">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="img/exhibit-b.avif" class="img-fluid exhibit-a" style="max-width: 220px;" alt="...">
+              </div>
+              <div class="col-md-8">
+
+                <div class="card-body">
+                  <div class="containx d-flex">
+                    <h5 class="card-title">Block-D Ave</h5>
+                    <p class="rate">4.3</p>
+                  </div>
+                  <div class="contain2">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-down"></i>
+                  </div>
+
+                  <div class="contain3 d-flex">
+                    <i class="fa-solid fa-location-dot location1"></i>
+                    <a href="" class="link4">
+                      <p>Show on map</p>
+                    </a>
+                  </div>
+
+                  <div class="contain4 d-flex">
+                    <div class="contain5 d-flex">
+                      <i class="fa-solid fa-cube"></i>
+                      <p class="pp1">15 m<sup>2</sup></p>
+                    </div>
+
+                    <div class="contain6 d-flex">
+                      <i class="fa-solid fa-cube"></i>
+                      <p class="pp1">Bunk beds</p>
+                    </div>
+
+                    <div class="contain6 d-flex">
+                      <i class="fa-solid fa-location-dot location2"></i>
+                      <p class="pp1">Easy Access</p>
+                    </div>
+                  </div>
+
+                  <div class="contain4 d-flex">
+                    <div class="contain5 d-flex">
+                      <i class="fa-solid fa-car"></i>
+                      <p class="pp1">30 mins</p>
+                    </div>
+
+                    <div class="contain6 d-flex">
+                      <i class="fa-solid fa-bus"></i>
+                      <p class="pp1">50 mins</p>
+                    </div>
+
+                    <div class="contain6 d-flex">
+                      <i class="fa-solid fa-person"></i>
+                      <p class="pp1">1hr 47mins</p>
+                    </div>
+                  </div>
+
+                  <div class="contain7 d-flex">
+                    <div class="icon-pack">
+                      <i class="fa-solid fa-bed icon1"></i>
+                      <i class="fa-solid fa-sink icon1"></i>
+                      <i class="fa-solid fa-lightbulb icon1"></i>
+                      <i class="fa-solid fa-wifi icon1"></i>
+                    </div>
+                    <a href="" class="link5">More details <i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="card mt-5">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="img/exhibit-c.jpeg" class="img-fluid exhibit-a" style="max-width: 220px;" alt="...">
+              </div>
+              <div class="col-md-8">
+
+                <div class="card-body">
+                  <div class="containx d-flex">
+                    <h5 class="card-title">Luis-Jnr Ave</h5>
+                    <p class="rate">4.9</p>
+                  </div>
+                  <div class="contain2">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-down"></i>
+                  </div>
+
+                  <div class="contain3 d-flex">
+                    <i class="fa-solid fa-location-dot location1"></i>
+                    <a href="" class="link4">
+                      <p>Show on map</p>
+                    </a>
+                  </div>
+
+                  <div class="contain4 d-flex">
+                    <div class="contain5 d-flex">
+                      <i class="fa-solid fa-cube"></i>
+                      <p class="pp1">55 m<sup>2</sup></p>
+                    </div>
+
+                    <div class="contain6 d-flex">
+                      <i class="fa-solid fa-cube"></i>
+                      <p class="pp1">Double beds</p>
+                    </div>
+
+                    <div class="contain6 d-flex">
+                      <i class="fa-solid fa-location-dot location2"></i>
+                      <p class="pp1">Easy Access</p>
+                    </div>
+                  </div>
+
+                  <div class="contain4 d-flex">
+                    <div class="contain5 d-flex">
+                      <i class="fa-solid fa-car"></i>
+                      <p class="pp1">15 mins</p>
+                    </div>
+
+                    <div class="contain6 d-flex">
+                      <i class="fa-solid fa-bus"></i>
+                      <p class="pp1">37 mins</p>
+                    </div>
+
+                    <div class="contain6 d-flex">
+                      <i class="fa-solid fa-person"></i>
+                      <p class="pp1">1hr</p>
+                    </div>
+                  </div>
+
+                  <div class="contain7 d-flex">
+                    <div class="icon-pack">
+                      <i class="fa-solid fa-bed icon1"></i>
+                      <i class="fa-solid fa-sink icon1"></i>
+                      <i class="fa-solid fa-lightbulb icon1"></i>
+                      <i class="fa-solid fa-wifi icon1"></i>
+                    </div>
+                    <a href="" class="link5">More details <i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="card mt-5">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="img/exhibit-f.avif" class="img-fluid exhibit-a" style="max-width: 220px;" alt="...">
+              </div>
+              <div class="col-md-8">
+
+                <div class="card-body">
+                  <div class="containx d-flex">
+                    <h5 class="card-title">Mellisa Lakes</h5>
+                    <p class="rate">3.8</p>
+                  </div>
+                  <div class="contain2">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-down"></i>
+                  </div>
+
+                  <div class="contain3 d-flex">
+                    <i class="fa-solid fa-location-dot location1"></i>
+                    <a href="" class="link4">
+                      <p>Show on map</p>
+                    </a>
+                  </div>
+
+                  <div class="contain4 d-flex">
+                    <div class="contain5 d-flex">
+                      <i class="fa-solid fa-cube"></i>
+                      <p class="pp1">20 m<sup>2</sup></p>
+                    </div>
+
+                    <div class="contain6 d-flex">
+                      <i class="fa-solid fa-cube"></i>
+                      <p class="pp1">Single bed</p>
+                    </div>
+
+                    <div class="contain6 d-flex">
+                      <i class="fa-solid fa-location-dot location2"></i>
+                      <p class="pp1">Easy Access</p>
+                    </div>
+                  </div>
+
+                  <div class="contain4 d-flex">
+                    <div class="contain5 d-flex">
+                      <i class="fa-solid fa-car"></i>
+                      <p class="pp1">10 mins</p>
+                    </div>
+
+                    <div class="contain6 d-flex">
+                      <i class="fa-solid fa-bus"></i>
+                      <p class="pp1">30 mins</p>
+                    </div>
+
+                    <div class="contain6 d-flex">
+                      <i class="fa-solid fa-person"></i>
+                      <p class="pp1">50 mins</p>
+                    </div>
+                  </div>
+
+                  <div class="contain7 d-flex">
+                    <div class="icon-pack">
+                      <i class="fa-solid fa-bed icon1"></i>
+                      <i class="fa-solid fa-sink icon1"></i>
+                      <i class="fa-solid fa-lightbulb icon1"></i>
+                      <i class="fa-solid fa-wifi icon1"></i>
+                    </div>
+                    <a href="" class="link5">More details <i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mt-5">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="img/exhibit-g.jpeg" class="img-fluid exhibit-a" style="max-width: 220px;" alt="...">
+              </div>
+              <div class="col-md-8">
+
+                <div class="card-body">
+                  <div class="containx d-flex">
+                    <h5 class="card-title">Anissa Valleys</h5>
+                    <p class="rate">5.0</p>
+                  </div>
+                  <div class="contain2">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-down"></i>
+                  </div>
+
+                  <div class="contain3 d-flex">
+                    <i class="fa-solid fa-location-dot location1"></i>
+                    <a href="" class="link4">
+                      <p>Show on map</p>
+                    </a>
+                  </div>
+
+                  <div class="contain4 d-flex">
+                    <div class="contain5 d-flex">
+                      <i class="fa-solid fa-cube"></i>
+                      <p class="pp1">60 m<sup>2</sup></p>
+                    </div>
+
+                    <div class="contain6 d-flex">
+                      <i class="fa-solid fa-cube"></i>
+                      <p class="pp1">Double beds</p>
+                    </div>
+
+                    <div class="contain6 d-flex">
+                      <i class="fa-solid fa-location-dot location2"></i>
+                      <p class="pp1">Easy Access</p>
+                    </div>
+                  </div>
+
+                  <div class="contain4 d-flex">
+                    <div class="contain5 d-flex">
+                      <i class="fa-solid fa-car"></i>
+                      <p class="pp1">20 mins</p>
+                    </div>
+
+                    <div class="contain6 d-flex">
+                      <i class="fa-solid fa-bus"></i>
+                      <p class="pp1">40 mins</p>
+                    </div>
+
+                    <div class="contain6 d-flex">
+                      <i class="fa-solid fa-person"></i>
+                      <p class="pp1">1hr 17mins</p>
+                    </div>
+                  </div>
+
+                  <div class="contain7 d-flex">
+                    <div class="icon-pack">
+                      <i class="fa-solid fa-bed icon1"></i>
+                      <i class="fa-solid fa-sink icon1"></i>
+                      <i class="fa-solid fa-lightbulb icon1"></i>
+                      <i class="fa-solid fa-wifi icon1"></i>
+                    </div>
+                    <a href="" class="link5">More details <i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mt-5">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="img/exhibit-h.jpeg" class="img-fluid exhibit-a" style="max-width: 220px;" alt="...">
+              </div>
+              <div class="col-md-8">
+
+                <div class="card-body">
+                  <div class="containx d-flex">
+                    <h5 class="card-title">3 Andy Haven</h5>
+                    <p class="rate">4.6</p>
+                  </div>
+                  <div class="contain2">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-down"></i>
+                  </div>
+
+                  <div class="contain3 d-flex">
+                    <i class="fa-solid fa-location-dot location1"></i>
+                    <a href="" class="link4">
+                      <p>Show on map</p>
+                    </a>
+                  </div>
+
+                  <div class="contain4 d-flex">
+                    <div class="contain5 d-flex">
+                      <i class="fa-solid fa-cube"></i>
+                      <p class="pp1">40 m<sup>2</sup></p>
+                    </div>
+
+                    <div class="contain6 d-flex">
+                      <i class="fa-solid fa-cube"></i>
+                      <p class="pp1">Single bed</p>
+                    </div>
+
+                    <div class="contain6 d-flex">
+                      <i class="fa-solid fa-location-dot location2"></i>
+                      <p class="pp1">Easy Access</p>
+                    </div>
+                  </div>
+
+                  <div class="contain4 d-flex">
+                    <div class="contain5 d-flex">
+                      <i class="fa-solid fa-car"></i>
+                      <p class="pp1">20 mins</p>
+                    </div>
+
+                    <div class="contain6 d-flex">
+                      <i class="fa-solid fa-bus"></i>
+                      <p class="pp1">35 mins</p>
+                    </div>
+
+                    <div class="contain6 d-flex">
+                      <i class="fa-solid fa-person"></i>
+                      <p class="pp1">50 mins</p>
+                    </div>
+                  </div>
+
+                  <div class="contain7 d-flex">
+                    <div class="icon-pack">
+                      <i class="fa-solid fa-bed icon1"></i>
+                      <i class="fa-solid fa-sink icon1"></i>
+                      <i class="fa-solid fa-lightbulb icon1"></i>
+                      <i class="fa-solid fa-wifi icon1"></i>
+                    </div>
+                    <a href="" class="link5">More details <i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-2">
+          <div class="contain8 rounded">
+            <p class="price">#155k <span class="span2">/year</span></p>
+            <p class="price">Included...</p>
+            <p class="price price2"><i class="fa-solid fa-check"></i>Water</p>
+            <p class="price price2"><i class="fa-solid fa-check"></i>Electricity</p>
+            <p class="price price2"><i class="fa-solid fa-check"></i>Internet</p>
+          </div>
+
+          <div class="contain8 mrgn rounded">
+            <p class="price">#233k <span class="span2">/year</span></p>
+            <p class="price">Included...</p>
+            <p class="price price2"><i class="fa-solid fa-check"></i>Water</p>
+            <p class="price price2"><i class="fa-solid fa-check"></i>Electricity</p>
+            <p class="price price2"><i class="fa-solid fa-check"></i>Internet</p>
+          </div>
+
+          <div class="contain8 mrgn rounded">
+            <p class="price">#150k <span class="span2">/year</span></p>
+            <p class="price">Included...</p>
+            <p class="span2 price">No bills included</p>
+          </div>
+
+          <div class="contain8 mrgn rounded">
+            <p class="price">#340k <span class="span2">/year</span></p>
+            <p class="price">Included...</p>
+            <p class="price price2"><i class="fa-solid fa-check"></i>Water</p>
+            <p class="price price2"><i class="fa-solid fa-check"></i>Electricity</p>
+            <p class="price price2"><i class="fa-solid fa-check"></i>Internet</p>
+          </div>
+
+          <div class="contain8 mrgn rounded">
+            <p class="price">#300k <span class="span2">/year</span></p>
+            <p class="price">Included...</p>
+            <p class="price price2"><i class="fa-solid fa-check"></i>Water</p>
+            <p class="price price2"><i class="fa-solid fa-check"></i>Electricity</p>
+            <p class="price price2"><i class="fa-solid fa-check"></i>Internet</p>
+          </div>
+
+          <div class="contain8 mrgn rounded">
+            <p class="price">#500k <span class="span2">/year</span></p>
+            <p class="price">Included...</p>
+            <p class="price price2"><i class="fa-solid fa-check"></i>Water</p>
+            <p class="price price2"><i class="fa-solid fa-check"></i>Electricity</p>
+            <p class="price price2"><i class="fa-solid fa-check"></i>Internet</p>
+          </div>
+
+          <div class="contain8 mrgn rounded">
+            <p class="price">#410k <span class="span2">/year</span></p>
+            <p class="price">Included...</p>
+            <p class="price price2"><i class="fa-solid fa-check"></i>Water</p>
+            <p class="price price2"><i class="fa-solid fa-check"></i>Electricity</p>
+            <p class="price price2"><i class="fa-solid fa-check"></i>Internet</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+          <div class="contain17">
+          <h1 class="header5">EVERMAN</h1>
+          <p class="writeup15">© 2022 All Rights Reserved.
+            The content, images and logos used on this are copyright protected and copyrights vests with the respective owners. 
+            The usage is intended to promote, identify and search. No endorsement or partnership is implied.</p>
+            <img src="img/payment.png" alt="" class="payment">
+        </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+          <div class="contain18  last">
+            <h4 class="header6">Company</h4>
+            <p class="writeup16">Home</p>
+            <p class="writeup16">About</p>
+            <p class="writeup16">Need a roommate</p>
+            <p class="writeup16">Rent a room</p>
+            <p class="writeup16">NewsRoom</p>
+            <p class="writeup16">Blog</p>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+          <div class="contain18">
+            <h4 class="header6">  Get Help</h4>
+            <p class="writeup16">Contact</p>
+            <p class="writeup16">How it works</p>
+            <p class="writeup16">FAQs</p>
+            <p class="writeup16">Terms</p>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+          <div class="contain19 last">
+            <h4 class="header6">Contact</h4>
+            <p class="writeup18"><i class="fa-brands fa-facebook icons4"></i>Facebook</p>
+            <p class="writeup18"><i class="fa-brands fa-twitter icons4"></i>Twitter</p>
+            <p class="writeup18"><i class="fa-brands fa-instagram icons4"></i>Instagram</p>
+            <p class="writeup18"><i class="fa-brands fa-linkedin icons4"></i>Linkedin</p>
+            <p class="writeup18"><i class="fa-solid fa-phone icons4"></i>08022274770</p>
+            <p class="writeup18"><i class="fa-solid fa-envelope icons4"></i>everman@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+ </footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+  integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
+  </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+  integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous">
+  </script>
+
+<script src="javascript/index.js"></script>
+<script src="dist/js/all.js"></script>
+<script src="dist/js/jquery-3.2.1.min.js"></script>
+<script src="dist/js/bootstrap.js"></script>
+<script src="dist/js/bootstrap.min.js"></script>
+<script src="dist/js/bootstrap.bundle.js"></script>
+<script src="dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  //function of a display button
+  $(window).scroll(function(){
+      if($(this).scrollTop() > 700){
+          $('#mybtn').fadeIn('slow')
+      }else {
+          $('#mybtn').fadeOut('slow')
+      }
+  });
+
+  //funtion to scroll top
+  $('#mybtn').click(function(){
+      $('html, body').animate ({ scrollTop:0}, 'slow');
+      return false;
+  })
+</script>
+
+</html>

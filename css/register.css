@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-color: #f4f3ee; */
+    /* background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://thumbs.dreamstime.com/z/room-1786033.jpg"); */
+    background-color: #bcb8b1;
+    animation: back 2s linear 0.2s  normal backwards;
+    overflow: hidden;
+}
+
+@keyframes back {
+    from {
+        background-color: #8a817c;
+    }
+
+    to {
+        background-color: #bcb8b1;
+    }
+}
+
+.secondside{
+    margin-left: 60%;
+    margin-top: -58%;
+    background-color: #f4f3ee;
+    border: 1px solid #8a817c;
+    border-radius: 70px;
+    animation: secondside 1s linear 1.6s  normal backwards;
+}
+
+@keyframes secondside {
+    0% {
+        transform: translateX(700px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(20px);
+    }
+}
+
+
+.heading {
+    font-size: 30px;
+    text-align: center;
+    color: #8a817c;
+    font-weight: 700;
+}
+
+form {
+    /* border: 1px solid #8a817c; */
+    padding: 5%;
+    /* border-radius: 20px; */
+    /* width: 10vh; */
+    /* backdrop-filter: blur(5px); */
+}
+
+.form-control {
+    border-radius: 70px;
+    padding: 10px;
+}
+
+.firstside {
+    margin-left: -10%;
+    height: 90vh;
+}
+
+.logo {
+    width: 20vw;
+    height: 40vh;
+    margin-top: -12%;
+    margin-left: -13%;
+}
+
+.description {
+    font-family: "Trirong", serif;
+    text-transform: capitalize;
+    margin-top: -50px;
+    font-weight: 900;
+    width: 75%;
+    color: #f4f3ee;
+}
+
+.contact {
+    font-family: "Trirong", serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #f4f3ee;
+    margin-top: 30px;
+}
+
+.number1 {
+    font-family: "Trirong", serif;  
+    color: #f4f3ee;
+    font-size: 30px;
+    /* text-decoration: none;
+    border-bottom: 1px solid #bcb8b1;
+    border-bottom-width: 3px; */
+    letter-spacing:  6px;
+    text-decoration: underline;
+    text-decoration-color: #f4f3ee;
+}
+
+.number1:hover{
+    color: #f4f3ee;
+    animation: changecolor 0.5s linear 0.2s  normal forwards;
+}
+
+@keyframes changecolor{
+    from {
+        color: #f4f3ee;
+    }
+
+    to {
+        color: #8a817c;
+    }
+}
+
+.phone-num{
+    margin-top: 7%;
+}
+
+.number2 {
+    margin-top: -10px;
+}
+
+.icon-pack {
+    margin-left: -5%;
+    margin-top: 12%;
+}
+
+.icons {
+    font-size: 26px;
+    margin: 0 4%;
+    color: #f4f3ee;
+}
+
+.btn-link {
+    text-decoration: none;
+    color: #8a817c;
+}
+
+.btn-link:hover {
+    text-decoration: none;
+    color: #8a817c;
+    animation: link 0.5s linear 0.2s  normal forwards; 
+}
+
+
+@keyframes link{
+    from {
+        color: #8a817c;
+    }
+
+    to {
+        color: #bcb8b1;
+    }
+}
+
+.reg-bttn {
+    background-color: transparent;
+    border: 1px solid #8a817c;
+    color: #8a817c;
+}
+
+.reg-bttn:hover {
+    background-color: #8a817c;
+    color: #f4f3ee;
+    animation: bttn-color 0.7s linear 0.2s  normal backwards; 
+    border: none;
+}
+
+@keyframes bttn-color {
+    from {
+        background-color: transparent;
+        border: 1px solid #8a817c;
+        color: #8a817c;
+    }
+
+    to {
+        background-color: #8a817c;
+        color: #f4f3ee;
+        border: none;
+    }
+}
+
+.reg {
+    color: #8a817c;
+}
+
+.reg:hover{
+    color: #8a817c;
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 1248px) {
+    .cover {
+        margin-left: -10%;
+        margin-top: 1%;
+    }
+
+    .firstside {
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .firstside {
+        display: none;
+    }
+
+    .cover {
+        margin-top: 57%;
+        margin-left: -36%;
+        position: fixed;
+    }
+}
+
+@media (max-width: 768px) {
+    .cover {
+        margin-left: -51%;
+        margin-top: 45%;
+        width: 80%;
+    }
+}
+
+@media (max-width: 655px) {
+    .cover {
+        margin-left: -40%;
+    }
+}
+
+@media (max-width: 409px) {
+    .cover {
+        margin-left: -35%;
+    }
+}
